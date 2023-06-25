@@ -5,6 +5,22 @@ import "./index.scss"
 
 export default (props) => {
     const [selectactive, setSelectactive] = useState(0);
+    const [hideData, setHideData] = useState(false);
+
+    useEffect(()=>{
+
+       // 判断h5还是pc true就是h5
+       let client =
+       /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+         navigator.userAgent
+       );
+     if (client) {
+    //    alert("h5");
+       setHideData(true)
+     } else {
+    //    alert("pc");
+     }
+    }, [])
 
     const headArr = [
         {
@@ -46,7 +62,9 @@ export default (props) => {
             <div className='logo' onClick={() => { window.location.href = "/" }}>
                 <img src={require("../../assets/image/logo.png")} alt="" />
             </div>
-            <div className='menu'>
+            {
+                hideData ? "" :
+                <div className='menu'>
                 <ul>
                     {
                         headArr.map((item, index) => {
@@ -67,6 +85,8 @@ export default (props) => {
 
                 </ul>
             </div>
+            }
+
         </div>
 
     </div>

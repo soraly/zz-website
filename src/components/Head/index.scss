@@ -16,6 +16,16 @@
             height: 60px;
         }
     }
+
+@media (max-width: 400px) {
+	.logo {
+        img {
+            width: 0.44rem;
+            height: 0.4rem;
+        }
+    }
+}
+
     > div {
         display: flex;
         justify-content: space-between;
