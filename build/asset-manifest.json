@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25acdf45.css",
+    "main.js": "/static/js/main.927f477a.js",
+    "static/media/Banner3.png": "/static/media/Banner3.73463786f60e72516615.png",
+    "static/media/bg.png": "/static/media/bg.d55a87f37a8fa74148ba.png",
+    "static/media/Banner1.png": "/static/media/Banner1.9b93d660edc8eb48c5cf.png",
+    "static/media/paper.png": "/static/media/paper.f1deccb41f0f85e675e2.png",
+    "static/media/Banner2.png": "/static/media/Banner2.761076997b884dc7b590.png",
+    "static/media/威乐2.png": "/static/media/威乐2.dbbda9ba669a1276a24d.png",
+    "static/media/威乐3.png": "/static/media/威乐3.042936c95f1c0ad4109c.png",
+    "static/media/威乐1.png": "/static/media/威乐1.188f4e0bcd860cc10a18.png",
+    "static/media/威乐4.png": "/static/media/威乐4.c72d9369bea00cb7fb3b.png",
+    "static/media/Point.png": "/static/media/Point.36dba95a9cb1921722b9.png",
+    "static/media/海立1.png": "/static/media/海立1.6c125ef709bfc1dadcbc.png",
+    "static/media/海立2.png": "/static/media/海立2.6c125ef709bfc1dadcbc.png",
+    "static/media/海立3.png": "/static/media/海立3.6afdf6afa7814fbba425.png",
+    "static/media/海立4.png": "/static/media/海立4.25f283267440daf82a90.png",
+    "static/media/Logo_长城汽车.png": "/static/media/Logo_长城汽车.ccedf17dee822e636a97.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.25acdf45.css",
+    "static/js/main.927f477a.js"
+  ]
+}
